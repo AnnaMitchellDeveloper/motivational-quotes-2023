@@ -5,6 +5,13 @@ body {
 	background-position: center;
 	font-family: 'Lobster', cursive;
 }
+footer {
+	color: white;
+	text-align: center;
+}
+footer a {
+	color: white;
+}
 .container {
 	display: flex;
 	justify-content: center;
@@ -20,4 +27,18 @@ body {
 	padding: 10px 30px;
 	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
 	font-family: 'Lobster', cursive;
+	position: fixed;
+}
+.par {
+	display: none;
+	font-family: 'Dancing Script', cursive;
+	margin-top: 400px;
+	background-color: #4286a5;
+	color: white;
+	padding: 20px;
+	font-size: 40px;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+	width: 60%;
+	text-align: center;
 }

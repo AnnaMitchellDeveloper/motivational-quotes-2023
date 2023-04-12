@@ -14,5 +14,6 @@ const differentQuotes = [
 
 button.addEventListener("click", function(){
 	let randomeQuote = differentQuotes[Math.floor(Math.random() * differentQuotes.length)];
+	newQuote.style.display = "block";
 	newQuote.textContent = randomeQuote;
 })
